@@ -1,0 +1,440 @@
+/* Here Start Styling Header  */
+.header-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.first-nav-navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.first-nav-navbar .first-nav-item {
+    float: none;
+}
+.first-nav-navbar, .first-nav-item, .first-nav-link {
+    text-align: center;
+    padding: 15px 5px;
+    color:#b9b3b3;
+    font-size:20px;
+}
+
+@media screen and (max-width:400px){
+    .first-nav-navbar{
+        display:none;
+    }
+}
+.navbar-brand {
+    font-size: 40px;
+    padding: 4px 12px;
+    border: 5px solid #d1c7c7;
+    border-radius: 50%;
+    color: #f6f6f8;
+    font-family: 'Arial Rounded MT';
+} 
+.navbar-brand:hover {
+    border: 5px solid #c60021;
+    color: #c60021;
+    transition-duration: 2s;
+}
+.navbar-nav {
+    margin-left: 18%;
+}
+.nav-item .nav-link {
+    color: rgb(179, 171, 171);
+    font-family: 'Underdog', cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    font-style: normal;
+}
+.nav-item .nav-link:hover {
+    color: #c60021;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    animation-fill-mode: forwards;
+    transition-duration: 2s;
+}
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+.dropdown-menu .dropdown-item {
+    border-bottom: 2px solid #d1c7c7;
+    padding: 2%;
+    color: #f6f6f8;
+    font-family: 'Underdog', cursive;
+}
+.dropdown-menu .dropdown-item:hover{
+    color:#c60021;
+    font-family: 'Underdog', cursive;
+}
+h1.display-1 {
+    color: #f6f6f8;
+    font-family: 'Underdog', cursive;
+    margin-top: 1%;
+    font-size:7vw;
+}
+h1.display-1:hover {
+    border-top: 3px solid #f6f6f8;
+    border-left: 9px solid #f6f6f8;
+    border-right: 9px solid #f6f6f8;
+    border-radius: 60px;
+    transition-duration: 1s;
+}
+h3.display-4 {
+    color: #f6f6f8;
+    font-family: 'Underdog', cursive;
+    font-size:4vw;
+}
+h3.display-4:hover {
+    border-bottom: 3px solid #f6f6f8;
+    border-left: 9px solid #f6f6f8;
+    border-right: 9px solid #f6f6f8;
+    border-radius: 60px;
+    transition-duration: 1.5s;
+}
+.jumbotron {
+    background: transparent;
+}
+#down-arrow {
+    margin-top: 9%;
+    font-size: 2.6vw;
+}
+.second-nav-navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.second-nav-navbar .second-nav-item {
+    float: none;
+}
+.second-nav-navbar, .second-nav-item, .second-nav-link, .second-icon {
+    text-align: center;
+    padding: 12px 5px;
+    font-size: 20px;
+    color: #c60021;
+}
+.second-nav-navbar, .second-nav-item, .second-nav-link :hover {
+    color: #666162;
+    cursor: pointer;
+}
+@media screen and (max-width:900px) and (min-width:300px){
+    .second-nav-navbar{
+        display:none;
+    }
+}
+/* Here End Header Styling */
+
+/* Here Start Styling About Section  */
+#about{
+    margin-top:15%;
+}
+#about-title{
+    font-size:60px;
+    font-family: 'Underdog', cursive;
+    color:#c60021;
+}
+.profile-pic{
+    width:70%;
+    display:block;
+    margin:3% auto;
+    border-radius:50%;
+    height:340px;
+}
+#about-card {
+    border:none;
+    margin:0px;
+    box-shadow:8px 8px 20px 10px #666162;
+    border-radius:2px 200px 2px 2px;
+    padding:9%;
+}
+.ab-subtitle{
+    color:#c60021;
+    font-family: 'Underdog', cursive;
+    font-size:40px;
+}
+.ab-para{
+    color:#666162;
+    font-family: 'Underdog', cursive;
+    font-size:18px;
+}
+/* Here End Styling About Section */
+
+/* Here Start Styling Service Section */
+#service{
+    margin-top:6%;
+}
+#ser-title{
+    font-family: 'Underdog', cursive;
+    color:#c60021;
+    text-align: center;
+    font-size:70px;
+}
+#service-card{
+    padding:2% 4%;
+    margin-top:4%;
+    border:none;
+    height:350px;
+    box-shadow:8px 8px 20px 8px #666162;
+    border-radius:5px 20px 5px 20px;
+}
+.ser-img {
+    max-width:10vw;
+    max-height:10vh;
+    display:block;
+    margin:auto;
+}
+.ser-subtitle{
+    color:#c60021;
+    font-family: 'Underdog', cursive;
+    font-size: 25px;
+    padding-top:1.5%;
+    text-align: center;
+}
+.ser-para{
+    text-align: center;
+    color:#666162;
+    font-size:17px;
+    font-family: 'Underdog', cursive;
+}
+/* Here End Styling of Service Section */
+
+/* Here Start Styling Projects Section */
+.prs-title{
+    color:#c60021;
+    margin-top:3%;
+    text-align: center;
+    font-family: 'Underdog', cursive;
+    font-size:60px;
+}
+#prs-card{
+    border-radius:10px;
+    margin:3% 0.5%;
+    padding:1% 2%;
+    height:;
+    box-shadow:8px 8px 20px 10px #666162;
+}
+.prs-subtitle{
+    text-align: center;
+    color:#c60021;
+    font-family: 'Underdog', cursive;
+    font-size:30px;
+}
+.prs-date{
+    color:#666162;
+    text-align: center;
+    font-family: 'Underdog', cursive;
+    font-size:18px;
+}
+.prs-description{
+    color:#666162;
+    font-family: 'Underdog', cursive;
+    text-align: left;
+    font-size:18px;
+}
+/* Here End Styling Projects Section */
+/* Here Start Styling Experience Section */
+.exp-title{
+    text-align: center;
+    padding-top:1.5%;
+    font-family: 'Underdog', cursive;
+    color:#c60021;
+    font-size:50px;
+}
+#exp-card{
+    border-radius:10px;
+    margin-top:3%;
+    box-shadow:8px 8px 20px 10px #666162;
+}
+.exp-subtitle{
+    font-size:30px;
+    text-align: center;
+    color:#c60021;
+    font-family: 'Underdog', cursive;
+}
+.exp-time{
+    color:#59595c;
+    font-family: 'Underdog', cursive;
+    font-size:20px;
+    text-align: center;
+}
+.exp-list li{
+    color:#59595c;
+    font-family: 'Underdog', cursive;
+}
+/* Here End Styling Experience Section */
+/* Here Start Styling Tools Section */
+.tl-title{
+    color:#c60021;
+    font-size:50px;
+    font-family:'Underdog', cursive;
+    text-align: center;
+    padding-top:3%;
+}
+.tl-card{
+    border-radius:10px;
+    box-shadow:8px 8px 15px 5px #a8a3a4;
+    margin-top:4%;
+    padding:1% 2%;
+}
+.tl-subtitle{
+    color:#4f4f53;
+    font-weight:bolder;
+    letter-spacing:2px;
+    font-family:'Underdog', cursive;
+}
+/* Here End Styling Tools Section */
+/* Here Start Styling Languages Section */
+.lang-title{
+    color:#c60021;
+    font-size:50px;
+    font-family:'Underdog', cursive;
+    text-align: center;
+    padding-top:3%;
+}
+.lang-card{
+    border-radius:10px;
+    box-shadow:8px 8px 15px 5px #a8a3a4;
+    margin-top:4%;
+    padding:1% 2%;
+}
+.lang-subtitle{
+    color:#4f4f53;
+    font-weight:bolder;
+    letter-spacing:2px;
+    font-family:'Underdog', cursive;
+}
+/* Here End Styling Languages Section */
+/* Here Start Styling Skills Section */
+.skill-title{
+    color:#c60021;
+    font-family:'Underdog', cursive;
+    text-align: center;
+    font-size:50px;
+    padding-top:3%;
+}
+.ski-card{
+    border-radius:10px;
+    box-shadow:8px 8px 15px 5px #a8a3a4;
+    margin-top:4%;
+    padding:1% 2%;
+}
+.ski-subtitle{
+    color:#4f4f53;
+    font-weight:bolder;
+    letter-spacing:2px;
+    font-family:'Underdog', cursive;
+}
+/* Here End Styling Skills Section */
+/* Here Start Styling Contact Section */
+#contact-container{
+    background-color: #666162;
+    margin-top:5%;
+    border-radius:30px 30px 0px 0px;
+}
+.con-title{
+    text-align: center;
+    color:#d1c7c7;
+    font-size:60px;
+    font-family: 'Underdog', cursive;
+}
+#form{
+    width:80%;
+    margin: auto;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#d1c7c7;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #d1c7c7;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #d1c7c7;
+  }
+input[type=text]{
+    width:50%;
+    padding:0.4% 0.9%;
+    border-radius:5px;
+    border:none;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom:2px solid #d1c7c7;
+    color:#f6f6f8;
+    font-size:18px;
+    font-weight: 500;
+}
+input[type=email]{
+    width:100%;
+    margin-top:1.6%;
+    border-radius:5px;
+    border:none;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom:2px solid #d1c7c7;
+    color:#f6f6f8;
+    font-size:18px;
+    font-weight: 500;
+    color:#f6f6f8
+
+}
+input[type=number]{
+    width:100%;
+    margin-top:1.6%;
+    border-radius:5px;
+    border:none;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom:2px solid #d1c7c7;
+    color:#f6f6f8;
+    font-size:18px;
+    font-weight: 500;
+}
+textarea{
+    width:100%;
+    margin-top:1.6%;
+    border-radius:5px;
+    border:none;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom:2px solid #d1c7c7;
+    color:#f6f6f8;
+    font-size:18px;
+    font-weight: 500;
+}
+input[type=submit]{
+    width:25vw;
+    margin:1.6% auto;
+    border-radius:5px;
+    padding:0.5%;
+    border:4px inset #d1c7c7;
+    font-family: 'Underdog', cursive;
+    background-color: transparent;
+    color:#f6f6f8;
+    font-size:18px;
+    display: block;
+    font-weight: 500;
+}
+.foo-list{
+    list-style-type:none;
+    margin-left:5%;
+    padding:0;
+    width:auto;
+    overflow:hidden;
+}
+.foo-list .foo-item{
+    float:left;
+}
+.foo-list, .foo-item, .foo-link{
+    text-align: center;
+    display:block;
+    padding:1% 1%;
+    color:#f6f6f8;
+    font-size:18px;
+}
